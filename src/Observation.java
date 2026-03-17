@@ -1,10 +1,10 @@
 import java.util.List;
 
-public class Database {
+public class Observation {
    private List<Double> data;
    private String etykieta = null;
 
-   Database(List<Double> data, String etykieta) {
+   Observation(List<Double> data, String etykieta) {
       this.data = data;
       this.etykieta = etykieta;
    }
